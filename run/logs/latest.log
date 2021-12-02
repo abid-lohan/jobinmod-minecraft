@@ -1,45 +1,91 @@
-[02Dec2021 07:12:03.702] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.17, --assetsDir, /home/abidlohan/.gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 37.0.126, --fml.mcVersion, 1.17.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210706.113038]
-[02Dec2021 07:12:03.704] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.0.7+91+master.8569cdf starting: java version 16.0.2 by Amazon.com Inc.
-[02Dec2021 07:12:03.785] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=union:/home/abidlohan/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.4/4ec7d77d9ab32596ca0b78bb123956734767e3a/mixin-0.8.4.jar%2325! Service=ModLauncher Env=CLIENT
-[02Dec2021 07:12:03.818] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /home/abidlohan/Projects/jobin/run/config/fml.toml is not correct. Correcting
-[02Dec2021 07:12:03.822] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
-[02Dec2021 07:12:03.823] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [maxThreads] was corrected from null to -1
-[02Dec2021 07:12:04.949] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, /home/abidlohan/.gradle/caches/forge_gradle/assets, --assetIndex, 1.17]
-[07:12:08] [Render thread/WARN]: Assets URL 'union:/home/abidlohan/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.17.1-37.0.126_mapped_official_1.17.1/forge-1.17.1-37.0.126_mapped_official_1.17.1-recomp.jar%2375!/assets/.mcassetsroot' uses unexpected schema
-[07:12:08] [Render thread/WARN]: Assets URL 'union:/home/abidlohan/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.17.1-37.0.126_mapped_official_1.17.1/forge-1.17.1-37.0.126_mapped_official_1.17.1-recomp.jar%2375!/data/.mcassetsroot' uses unexpected schema
-[02Dec2021 07:12:08.308] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[07:12:08] [Render thread/INFO]: Setting user: Dev
-[07:12:08] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 SNAPSHOT
-[07:12:09] [modloading-worker-3/INFO]: Forge mod loading, version 37.0.126, for MC 1.17.1 with MCP 20210706.113038
-[07:12:09] [modloading-worker-3/INFO]: MinecraftForge v37.0.126 Initialized
-[02Dec2021 07:12:10.650] [Render thread/INFO] [com.mojang.text2speech.NarratorLinux/]: Narrator library successfully loaded
-[07:12:10] [Render thread/INFO]: Reloading ResourceManager: Default, Mod Resources
-[07:12:10] [modloading-worker-4/WARN]: Configuration file /home/abidlohan/Projects/jobin/run/config/forge-client.toml is not correct. Correcting
-[07:12:10] [modloading-worker-4/WARN]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
-[07:12:10] [modloading-worker-4/WARN]: Incorrect key client.alwaysSetupTerrainOffThread was corrected from null to its default, false. 
-[07:12:10] [modloading-worker-4/WARN]: Incorrect key client.experimentalForgeLightPipelineEnabled was corrected from null to its default, false. 
-[07:12:10] [modloading-worker-4/WARN]: Incorrect key client.selectiveResourceReloadEnabled was corrected from null to its default, true. 
-[07:12:10] [modloading-worker-4/WARN]: Incorrect key client.showLoadWarnings was corrected from null to its default, true. 
-[07:12:10] [modloading-worker-4/WARN]: Incorrect key client.useCombinedDepthStencilAttachment was corrected from null to its default, false. 
-[07:12:10] [modloading-worker-4/WARN]: Incorrect key client.forceSystemNanoTime was corrected from null to its default, false. 
-[07:12:10] [modloading-worker-4/WARN]: Configuration file /home/abidlohan/Projects/jobin/run/config/forge-common.toml is not correct. Correcting
-[07:12:10] [modloading-worker-4/WARN]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[07:12:10] [modloading-worker-4/WARN]: Incorrect key general.defaultWorldType was corrected from null to its default, default. 
-[07:12:11] [Worker-Main-10/INFO]: HELLO FROM PREINIT
-[07:12:11] [Worker-Main-10/INFO]: DIRT BLOCK >> minecraft:dirt
-[02Dec2021 07:12:11.354] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[02Dec2021 07:12:12.265] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 37.0.126 Target: 37.1.0
-[07:12:15] [Render thread/INFO]: OpenAL initialized.
-[07:12:15] [Render thread/INFO]: Sound engine started
-[07:12:15] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[07:12:15] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[07:12:15] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[07:12:15] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[07:12:15] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[07:12:15] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[07:12:15] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[07:12:17] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[07:12:17] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[07:12:17] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[07:12:17] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[07:29:28] [Render thread/INFO]: Stopping!
+[02Dec2021 08:54:54.631] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.17, --assetsDir, /home/abidlohan/.gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 37.0.126, --fml.mcVersion, 1.17.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210706.113038]
+[02Dec2021 08:54:54.634] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.0.7+91+master.8569cdf starting: java version 16.0.2 by Amazon.com Inc.
+[02Dec2021 08:54:54.717] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=union:/home/abidlohan/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.4/4ec7d77d9ab32596ca0b78bb123956734767e3a/mixin-0.8.4.jar%2325! Service=ModLauncher Env=CLIENT
+[02Dec2021 08:54:55.917] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, /home/abidlohan/.gradle/caches/forge_gradle/assets, --assetIndex, 1.17]
+[08:54:59] [Render thread/WARN]: Assets URL 'union:/home/abidlohan/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.17.1-37.0.126_mapped_parchment_2021.10.31-1.17.1/forge-1.17.1-37.0.126_mapped_parchment_2021.10.31-1.17.1-recomp.jar%2375!/assets/.mcassetsroot' uses unexpected schema
+[08:54:59] [Render thread/WARN]: Assets URL 'union:/home/abidlohan/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.17.1-37.0.126_mapped_parchment_2021.10.31-1.17.1/forge-1.17.1-37.0.126_mapped_parchment_2021.10.31-1.17.1-recomp.jar%2375!/data/.mcassetsroot' uses unexpected schema
+[02Dec2021 08:54:59.819] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08:54:59] [Render thread/INFO]: Setting user: Dev
+[08:54:59] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 SNAPSHOT
+[08:55:00] [modloading-worker-2/INFO]: Forge mod loading, version 37.0.126, for MC 1.17.1 with MCP 20210706.113038
+[08:55:00] [modloading-worker-2/INFO]: MinecraftForge v37.0.126 Initialized
+[02Dec2021 08:55:02.074] [Render thread/INFO] [com.mojang.text2speech.NarratorLinux/]: Narrator library successfully loaded
+[08:55:02] [Render thread/INFO]: Reloading ResourceManager: Default, Mod Resources
+[08:55:02] [Worker-Main-7/INFO]: HELLO FROM PREINIT
+[08:55:02] [Worker-Main-7/INFO]: DIRT BLOCK >> minecraft:dirt
+[02Dec2021 08:55:02.632] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[02Dec2021 08:55:03.489] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 37.0.126 Target: 37.1.0
+[08:55:06] [Render thread/INFO]: OpenAL initialized.
+[08:55:06] [Render thread/INFO]: Sound engine started
+[08:55:07] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[08:55:07] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[08:55:07] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[08:55:07] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[08:55:07] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[08:55:07] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[08:55:07] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[08:55:08] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[08:55:08] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[08:55:08] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[08:55:08] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[08:55:15] [Render thread/INFO]: Attempt 1...
+[08:55:42] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08:55:42] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08:55:42] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08:55:42] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08:55:42] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08:55:42] [Render thread/INFO]: Reloading ResourceManager: Default, , main
+[08:55:42] [Render thread/INFO]: Loaded 7 recipes
+[08:55:42] [Render thread/INFO]: Loaded 1137 advancements
+[02Dec2021 08:55:43.338] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08:55:43] [Server thread/INFO]: Starting integrated minecraft server version 1.17.1
+[08:55:43] [Server thread/INFO]: Generating keypair
+[08:55:43] [Server thread/WARN]: Configuration file ./saves/Mod Testing/serverconfig/forge-server.toml is not correct. Correcting
+[08:55:43] [Server thread/WARN]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[08:55:43] [Server thread/WARN]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[08:55:43] [Server thread/WARN]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[08:55:43] [Server thread/WARN]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[08:55:43] [Server thread/WARN]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[08:55:43] [Server thread/WARN]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to its default, false. 
+[08:55:43] [Server thread/WARN]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+[08:55:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:55:44] [Render thread/INFO]: Preparing spawn area: 0%
+[08:55:44] [Render thread/INFO]: Preparing spawn area: 3%
+[08:55:44] [Render thread/INFO]: Preparing spawn area: 13%
+[08:55:45] [Render thread/INFO]: Preparing spawn area: 21%
+[08:55:46] [Render thread/INFO]: Preparing spawn area: 25%
+[08:55:46] [Render thread/INFO]: Preparing spawn area: 43%
+[08:55:46] [Render thread/INFO]: Preparing spawn area: 54%
+[08:55:47] [Render thread/INFO]: Preparing spawn area: 63%
+[08:55:47] [Render thread/INFO]: Preparing spawn area: 72%
+[08:55:48] [Render thread/INFO]: Preparing spawn area: 85%
+[08:55:48] [Render thread/INFO]: Preparing spawn area: 94%
+[08:55:49] [Render thread/INFO]: Time elapsed: 5267 ms
+[08:55:49] [Server thread/INFO]: Changing view distance to 11, from 10
+[08:55:50] [Netty Local Client IO #0/INFO]: Connected to a modded server.
+[08:55:50] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2daf6aac
+[08:55:50] [Server thread/INFO]: Dev[local:E:761adf87] logged in with entity id 1 at (9.5, 4.0, -78.5)
+[08:55:50] [Server thread/INFO]: Dev joined the game
+[08:55:50] [Server thread/INFO]: Saving and pausing game...
+[08:55:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mod Testing]'/minecraft:overworld
+[08:55:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mod Testing]'/minecraft:the_nether
+[08:55:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mod Testing]'/minecraft:the_end
+[08:55:51] [Render thread/INFO]: Loaded 0 advancements
+[08:56:29] [Server thread/INFO]: Saving and pausing game...
+[08:56:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mod Testing]'/minecraft:overworld
+[08:56:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mod Testing]'/minecraft:the_nether
+[08:56:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mod Testing]'/minecraft:the_end
+[08:56:31] [Render thread/INFO]: Stopping!
+[08:56:31] [Server thread/INFO]: Dev lost connection: Disconnected
+[08:56:31] [Server thread/INFO]: Dev left the game
+[08:56:31] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[08:56:31] [Server thread/INFO]: Stopping server
+[08:56:31] [Server thread/INFO]: Saving players
+[08:56:31] [Server thread/INFO]: Saving worlds
+[08:56:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mod Testing]'/minecraft:overworld
+[08:56:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mod Testing]'/minecraft:the_nether
+[08:56:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mod Testing]'/minecraft:the_end
+[08:56:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (Mod Testing): All chunks are saved
+[08:56:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:56:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:56:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
