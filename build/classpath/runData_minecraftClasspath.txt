@@ -1,9 +1,9 @@
-/home/abidlohan/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.17.1-37.0.126_mapped_official_1.17.1/forge-1.17.1-37.0.126_mapped_official_1.17.1-recomp.jar
+/home/abidlohan/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.17.1-37.0.126_mapped_parchment_2021.10.31-1.17.1/forge-1.17.1-37.0.126_mapped_parchment_2021.10.31-1.17.1.jar
 /home/abidlohan/.gradle/caches/forge_gradle/minecraft_repo/versions/1.17.1/client-extra.jar
 /home/abidlohan/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/f7be08ec23c21485b9b5a1cf1654c2ec8c58168d/jsr305-3.0.1.jar
 /home/abidlohan/.gradle/caches/modules-2/files-2.1/ca.weblite/java-objc-bridge/1.0.0/6ef160c3133a78de015830860197602ca1c855d3/java-objc-bridge-1.0.0.jar
 /home/abidlohan/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mergetool/1.1.3/d7d4b6eac7f49c59255c8ac25190802c29ac9a4a/mergetool-1.1.3-api.jar
-/home/abidlohan/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/mapping/1.17.1/mapping-1.17.1-mapping.zip
+/home/abidlohan/.gradle/caches/parchmentgradle/org/parchmentmc/data/parchment-1.17.1/2021.10.31/parchment-1.17.1-2021.10.31.zip
 /home/abidlohan/.gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.17.1-37.0.126/f80da8849b211972c2cdc850ed8ded3afb08bee3/javafmllanguage-1.17.1-37.0.126.jar
 /home/abidlohan/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.17.1-37.0.126/37d82f80f900c8fde849159aeeb839c21934841c/mclanguage-1.17.1-37.0.126.jar
 /home/abidlohan/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.17.1-37.0.126/7ab14470c3dbdd0742145046b1756b3b3695e644/fmlcore-1.17.1-37.0.126.jar

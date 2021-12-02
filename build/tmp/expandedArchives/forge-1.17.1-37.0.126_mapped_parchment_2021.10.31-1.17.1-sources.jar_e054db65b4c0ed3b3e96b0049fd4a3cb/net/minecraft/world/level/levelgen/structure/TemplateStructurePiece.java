@@ -1,0 +1,116 @@
+package net.minecraft.world.level.levelgen.structure;
+
+import com.mojang.brigadier.StringReader;
+import com.mojang.brigadier.exceptions.CommandSyntaxException;
+import java.util.Random;
+import java.util.function.Function;
+import net.minecraft.commands.arguments.blocks.BlockStateParser;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.level.ChunkPos;
+import net.minecraft.world.level.ServerLevelAccessor;
+import net.minecraft.world.level.StructureFeatureManager;
+import net.minecraft.world.level.WorldGenLevel;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.Rotation;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.properties.StructureMode;
+import net.minecraft.world.level.chunk.ChunkGenerator;
+import net.minecraft.world.level.levelgen.feature.StructurePieceType;
+import net.minecraft.world.level.levelgen.structure.templatesystem.StructureManager;
+import net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlaceSettings;
+import net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public abstract class TemplateStructurePiece extends StructurePiece {
+   private static final Logger LOGGER = LogManager.getLogger();
+   protected final String templateName;
+   protected StructureTemplate template;
+   protected StructurePlaceSettings placeSettings;
+   protected BlockPos templatePosition;
+
+   public TemplateStructurePiece(StructurePieceType pType, int pGenDepth, StructureManager pStructureManager, ResourceLocation pLocation, String pTemplateName, StructurePlaceSettings pPlaceSettings, BlockPos pTemplatePosition) {
+      super(pType, pGenDepth, pStructureManager.getOrCreate(pLocation).getBoundingBox(pPlaceSettings, pTemplatePosition));
+      this.setOrientation(Direction.NORTH);
+      this.templateName = pTemplateName;
+      this.templatePosition = pTemplatePosition;
+      this.template = pStructureManager.getOrCreate(pLocation);
+      this.placeSettings = pPlaceSettings;
+   }
+
+   public TemplateStructurePiece(StructurePieceType p_163668_, CompoundTag p_163669_, ServerLevel p_163670_, Function<ResourceLocation, StructurePlaceSettings> p_163671_) {
+      super(p_163668_, p_163669_);
+      this.setOrientation(Direction.NORTH);
+      this.templateName = p_163669_.getString("Template");
+      this.templatePosition = new BlockPos(p_163669_.getInt("TPX"), p_163669_.getInt("TPY"), p_163669_.getInt("TPZ"));
+      ResourceLocation resourcelocation = this.makeTemplateLocation();
+      this.template = p_163670_.getStructureManager().getOrCreate(resourcelocation);
+      this.placeSettings = p_163671_.apply(resourcelocation);
+      this.boundingBox = this.template.getBoundingBox(this.placeSettings, this.templatePosition);
+   }
+
+   protected ResourceLocation makeTemplateLocation() {
+      return new ResourceLocation(this.templateName);
+   }
+
+   protected void addAdditionalSaveData(ServerLevel pLevel, CompoundTag pTag) {
+      pTag.putInt("TPX", this.templatePosition.getX());
+      pTag.putInt("TPY", this.templatePosition.getY());
+      pTag.putInt("TPZ", this.templatePosition.getZ());
+      pTag.putString("Template", this.templateName);
+   }
+
+   public boolean postProcess(WorldGenLevel pLevel, StructureFeatureManager pStructureManager, ChunkGenerator pChunkGenerator, Random pRandom, BoundingBox pBox, ChunkPos pChunkPos, BlockPos pPos) {
+      this.placeSettings.setBoundingBox(pBox);
+      this.boundingBox = this.template.getBoundingBox(this.placeSettings, this.templatePosition);
+      if (this.template.placeInWorld(pLevel, this.templatePosition, pPos, this.placeSettings, pRandom, 2)) {
+         for(StructureTemplate.StructureBlockInfo structuretemplate$structureblockinfo : this.template.filterBlocks(this.templatePosition, this.placeSettings, Blocks.STRUCTURE_BLOCK)) {
+            if (structuretemplate$structureblockinfo.nbt != null) {
+               StructureMode structuremode = StructureMode.valueOf(structuretemplate$structureblockinfo.nbt.getString("mode"));
+               if (structuremode == StructureMode.DATA) {
+                  this.handleDataMarker(structuretemplate$structureblockinfo.nbt.getString("metadata"), structuretemplate$structureblockinfo.pos, pLevel, pRandom, pBox);
+               }
+            }
+         }
+
+         for(StructureTemplate.StructureBlockInfo structuretemplate$structureblockinfo1 : this.template.filterBlocks(this.templatePosition, this.placeSettings, Blocks.JIGSAW)) {
+            if (structuretemplate$structureblockinfo1.nbt != null) {
+               String s = structuretemplate$structureblockinfo1.nbt.getString("final_state");
+               BlockStateParser blockstateparser = new BlockStateParser(new StringReader(s), false);
+               BlockState blockstate = Blocks.AIR.defaultBlockState();
+
+               try {
+                  blockstateparser.parse(true);
+                  BlockState blockstate1 = blockstateparser.getState();
+                  if (blockstate1 != null) {
+                     blockstate = blockstate1;
+                  } else {
+                     LOGGER.error("Error while parsing blockstate {} in jigsaw block @ {}", s, structuretemplate$structureblockinfo1.pos);
+                  }
+               } catch (CommandSyntaxException commandsyntaxexception) {
+                  LOGGER.error("Error while parsing blockstate {} in jigsaw block @ {}", s, structuretemplate$structureblockinfo1.pos);
+               }
+
+               pLevel.setBlock(structuretemplate$structureblockinfo1.pos, blockstate, 3);
+            }
+         }
+      }
+
+      return true;
+   }
+
+   protected abstract void handleDataMarker(String pFunction, BlockPos pPos, ServerLevelAccessor pLevel, Random pRandom, BoundingBox pSbb);
+
+   public void move(int pX, int pY, int pZ) {
+      super.move(pX, pY, pZ);
+      this.templatePosition = this.templatePosition.offset(pX, pY, pZ);
+   }
+
+   public Rotation getRotation() {
+      return this.placeSettings.getRotation();
+   }
+}
