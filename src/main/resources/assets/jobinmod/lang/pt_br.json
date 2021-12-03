@@ -2,6 +2,9 @@
   "item.jobinmod.jobin_ingot": "Barra de Jobin",
   "item.jobinmod.jobin_nugget": "Pepita de Jobin",
   "item.jobinmod.raw_jobin": "Jobin bruto",
+
   "block.jobinmod.jobin_block": "Bloco de Jobin",
-  "block.jobinmod.jobin_ore": "Minério de Jobin"
+  "block.jobinmod.jobin_ore": "Minério de Jobin",
+
+  "itemGroup.jobinTab": "Jobin"
 }
