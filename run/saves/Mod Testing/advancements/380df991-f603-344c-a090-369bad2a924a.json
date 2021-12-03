@@ -29,6 +29,18 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:slime": "2021-12-03 00:40:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:slime": "2021-12-03 00:40:43 -0300"
+    },
+    "done": false
+  },
   "minecraft:recipes/tools/golden_pickaxe": {
     "criteria": {
       "has_gold_ingot": "2021-12-03 00:13:50 -0300"
@@ -131,6 +143,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2021-12-03 00:41:07 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2021-12-02 23:38:02 -0300"
@@ -206,6 +224,12 @@
   "minecraft:recipes/redstone/redstone_from_smelting_redstone_ore": {
     "criteria": {
       "has_redstone_ore": "2021-12-02 22:54:00 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2021-12-03 00:37:56 -0300"
     },
     "done": true
   },
