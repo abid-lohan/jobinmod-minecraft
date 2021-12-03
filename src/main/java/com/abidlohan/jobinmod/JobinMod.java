@@ -1,5 +1,6 @@
 package com.abidlohan.jobinmod;
 
+import com.abidlohan.jobinmod.block.ModBlocks;
 import com.abidlohan.jobinmod.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -29,6 +30,7 @@ public class JobinMod {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
         MinecraftForge.EVENT_BUS.register(this);

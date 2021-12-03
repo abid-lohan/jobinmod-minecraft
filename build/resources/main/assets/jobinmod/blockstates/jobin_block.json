@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "jobinmod:block/jobin_block" }
+  }
+}
