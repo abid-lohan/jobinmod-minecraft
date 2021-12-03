@@ -21,10 +21,10 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, JobinMod.MOD_ID);
 
     public static final RegistryObject<Block> JOBIN_BLOCK = registerBlockJobinTab("jobin_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(3f)));
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(3f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> JOBIN_ORE = registerBlockJobinTab("jobin_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(3f)));
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(3f).requiresCorrectToolForDrops()));
 
 
     public static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
