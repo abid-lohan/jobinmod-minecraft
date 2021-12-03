@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "jobin_ingot",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "jobinmod:jobin_nugget"
+    }
+  },
+  "result": {
+    "item": "jobinmod:jobin_ingot"
+  }
+}
