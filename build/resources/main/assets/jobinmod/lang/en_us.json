@@ -10,6 +10,12 @@
   "item.jobinmod.jobin_axe": "Jobin axe",
   "item.jobinmod.jobin_hoe": "Jobin hoe",
 
+  "item.jobinmod.jobin_helmet": "Jobin helmet",
+  "item.jobinmod.jobin_chestplate": "Jobin chestplate",
+  "item.jobinmod.jobin_leggings": "Jobin leggings",
+  "item.jobinmod.jobin_boots": "Jobin boots",
+  "item.jobinmod.jobin_horse_armor": "Jobin horse armor",
+
   "block.jobinmod.jobin_block": "Jobin block",
   "block.jobinmod.jobin_ore": "Jobin ore",
 

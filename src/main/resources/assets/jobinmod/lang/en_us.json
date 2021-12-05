@@ -1,17 +1,23 @@
 {
-  "item.jobinmod.jobin_ingot": "Jobin ingot",
-  "item.jobinmod.jobin_nugget": "Jobin nugget",
+  "item.jobinmod.jobin_ingot": "Jobin Ingot",
+  "item.jobinmod.jobin_nugget": "Jobin Nugget",
   "item.jobinmod.raw_jobin": "Raw Jobin",
   "item.jobinmod.banana": "Banana",
 
-  "item.jobinmod.jobin_sword": "Jobin sword",
-  "item.jobinmod.jobin_pickaxe": "Jobin pickaxe",
-  "item.jobinmod.jobin_shovel": "Jobin shovel",
-  "item.jobinmod.jobin_axe": "Jobin axe",
-  "item.jobinmod.jobin_hoe": "Jobin hoe",
+  "item.jobinmod.jobin_sword": "Jobin Sword",
+  "item.jobinmod.jobin_pickaxe": "Jobin Pickaxe",
+  "item.jobinmod.jobin_shovel": "Jobin Shovel",
+  "item.jobinmod.jobin_axe": "Jobin Axe",
+  "item.jobinmod.jobin_hoe": "Jobin Hoe",
 
-  "block.jobinmod.jobin_block": "Jobin block",
-  "block.jobinmod.jobin_ore": "Jobin ore",
+  "item.jobinmod.jobin_helmet": "Jobin Helmet",
+  "item.jobinmod.jobin_chestplate": "Jobin Chestplate",
+  "item.jobinmod.jobin_leggings": "Jobin Leggings",
+  "item.jobinmod.jobin_boots": "Jobin Boots",
+  "item.jobinmod.jobin_horse_armor": "Jobin Horsearmor",
+
+  "block.jobinmod.jobin_block": "Jobin Block",
+  "block.jobinmod.jobin_ore": "Jobin Ore",
 
   "itemGroup.jobinTab": "Jobin"
 }
