@@ -4,6 +4,12 @@
   "item.jobinmod.raw_jobin": "Jobin bruto",
   "item.jobinmod.banana": "Banana",
 
+  "item.jobinmod.jobin_sword": "Espada Jobin",
+  "item.jobinmod.jobin_pickaxe": "Picareta Jobin",
+  "item.jobinmod.jobin_shovel": "Pá Jobin",
+  "item.jobinmod.jobin_axe": "Machado Jobin",
+  "item.jobinmod.jobin_hoe": "Enxada Jobin",
+
   "block.jobinmod.jobin_block": "Bloco de Jobin",
   "block.jobinmod.jobin_ore": "Minério de Jobin",
 

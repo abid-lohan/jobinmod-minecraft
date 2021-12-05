@@ -4,6 +4,12 @@
   "item.jobinmod.raw_jobin": "Raw Jobin",
   "item.jobinmod.banana": "Banana",
 
+  "item.jobinmod.jobin_sword": "Jobin sword",
+  "item.jobinmod.jobin_pickaxe": "Jobin pickaxe",
+  "item.jobinmod.jobin_shovel": "Jobin shovel",
+  "item.jobinmod.jobin_axe": "Jobin axe",
+  "item.jobinmod.jobin_hoe": "Jobin hoe",
+
   "block.jobinmod.jobin_block": "Jobin block",
   "block.jobinmod.jobin_ore": "Jobin ore",
 
