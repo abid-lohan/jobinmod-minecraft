@@ -1,7 +1,7 @@
 # Description
 ***
 
-<img src="https://github.com/abid-lohan/jobinmod-minecraft/tree/master/src/main/resources/jobinmod.png" alt="Jobin Mod logo">
+![Jobin!](https://cdn.discordapp.com/attachments/888101596796452937/917618192875159613/jobinmod.png "Jobin Mod logo")
 
 <p>My first Minecraft mod project. Just testing how it works.</p>
 <p>The mod itself adds a new tier for minecraft tools and armor, which are better than diamond and comparable to netherite level, but you can mine in overworld.</p>
@@ -10,7 +10,7 @@
 ***
 
 ![version](https://img.shields.io/badge/version-0.6.1-green) <br>
-Click <a href="https://github.com/abid-lohan/jobinmod-minecraft/tree/master/build/libs/jobinmod-1.17.1-0.6.1.jar" alt="Download">here</a> to download the latest .jar version.
+Click <a href="https://github.com/abid-lohan/jobinmod-minecraft/raw/master/build/libs/jobinmod-1.17.1-0.6.1.jar" alt="Download">here</a> to download the latest .jar version.
 
 Compatibility:
 - Forge - MC 1.17.1
