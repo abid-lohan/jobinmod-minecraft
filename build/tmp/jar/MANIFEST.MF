@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: jobinmod
+Specification-Vendor: jobinmodsareus
+Specification-Version: 1
+Implementation-Title: jobin
+Implementation-Version: 1.17.1-0.1
+Implementation-Vendor: jobinmodsareus
+Implementation-Timestamp: 2021-12-07T00:10:18-0300
+

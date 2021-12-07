@@ -1,1 +1,0 @@
-My first Minecraft mod project. Just testing how it works.

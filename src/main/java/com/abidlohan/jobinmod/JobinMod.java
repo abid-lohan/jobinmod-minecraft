@@ -20,7 +20,6 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.stream.Collectors;
 
-// The value here should match an entry in the META-INF/mods.toml file
 @Mod(JobinMod.MOD_ID)
 public class JobinMod {
     public static final String MOD_ID = "jobinmod";
@@ -37,8 +36,19 @@ public class JobinMod {
     }
 
     private void setup(final FMLCommonSetupEvent event) {
-        // some preinit code
-        LOGGER.info("HELLO FROM PREINIT");
-        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+        LOGGER.info("Starting Jobin Mod");
     }
 }
+
+/*
+todo:
+- Add a bow
+- Advanced block and item
+- Ore generation
+- Custom tags
+- Tooltips
+- Advancements
+- JEI and Curios integration
+- Change ingot to gem
+- Add Jobin entity easter egg
+ */
