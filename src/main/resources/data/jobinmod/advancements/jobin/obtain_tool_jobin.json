@@ -1,0 +1,77 @@
+{
+  "parent": "jobinmod:jobin/root",
+  "display": {
+    "icon": {
+      "item": "jobinmod:jobin_pickaxe",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.jobin.obtain_tool_jobin.title"
+    },
+    "description": {
+      "translate": "advancements.jobin.obtain_tool_jobin.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "jobin_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jobinmod:jobin_pickaxe"
+            ]
+          }
+        ]
+      }
+    },
+    "jobin_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jobinmod:jobin_shovel"
+            ]
+          }
+        ]
+      }
+    },
+    "jobin_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jobinmod:jobin_axe"
+            ]
+          }
+        ]
+      }
+    },
+    "jobin_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jobinmod:jobin_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "jobin_pickaxe",
+      "jobin_shovel",
+      "jobin_axe",
+      "jobin_hoe"
+    ]
+  ]
+}

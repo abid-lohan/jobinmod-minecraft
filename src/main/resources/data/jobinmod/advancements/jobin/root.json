@@ -1,0 +1,38 @@
+{
+  "display": {
+    "title": {
+      "text": "Jo... bin!"
+    },
+    "description": {
+      "text": "Jo... bin!"
+    },
+    "icon": {
+      "item": "jobinmod:jobin_ingot"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true,
+    "background": "jobinmod:textures/gui/advancements/backgrounds/jobin.png"
+  },
+  "criteria": {
+    "jobin_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jobinmod:raw_jobin",
+              "jobinmod:jobin_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "jobin_ingot"
+    ]
+  ]
+}

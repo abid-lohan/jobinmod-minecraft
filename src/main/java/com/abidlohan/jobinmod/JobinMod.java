@@ -47,7 +47,6 @@ todo:
 - Ore generation
 - Custom tags
 - Tooltips
-- Advancements
 - JEI and Curios integration
 - Change ingot to gem
 - Add Jobin entity easter egg

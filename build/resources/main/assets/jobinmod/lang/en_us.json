@@ -19,5 +19,14 @@
   "block.jobinmod.jobin_block": "Jobin Block",
   "block.jobinmod.jobin_ore": "Jobin Ore",
 
-  "itemGroup.jobinTab": "Jobin"
+  "itemGroup.jobinTab": "Jobin",
+
+  "advancements.jobin.root.title": "JO... BIN!",
+  "advancements.jobin.root.description": "Acquire Jobin",
+  "advancements.jobin.obtain_armor_jobin.title": "Cover me with Jobin",
+  "advancements.jobin.obtain_armor_jobin.description": "Jobin armor is the way",
+  "advancements.jobin.obtain_tool_jobin.title": "Jobin efficiency",
+  "advancements.jobin.obtain_tool_jobin.description": "Make any Jobin tool",
+  "advancements.jobin.obtain_sword_jobin.title": "Swordsman",
+  "advancements.jobin.obtain_sword_jobin.description": "Make a Jobin sword"
 }

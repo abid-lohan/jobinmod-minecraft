@@ -19,5 +19,14 @@
   "block.jobinmod.jobin_block": "Bloco de Jobin",
   "block.jobinmod.jobin_ore": "Minério de Jobin",
 
-  "itemGroup.jobinTab": "Jobin"
+  "itemGroup.jobinTab": "Jobin",
+
+  "advancements.jobin.root.title": "JO... BIN!",
+  "advancements.jobin.root.description": "Pegue algum minério de Jobin",
+  "advancements.jobin.obtain_armor_jobin.title": "Cubra-me com Jobin",
+  "advancements.jobin.obtain_armor_jobin.description": "Armadura de Jobin é o caminho do sucesso",
+  "advancements.jobin.obtain_tool_jobin.title": "Eficiência nível Jobin",
+  "advancements.jobin.obtain_tool_jobin.description": "Faça alguma ferramenta de Jobin",
+  "advancements.jobin.obtain_sword_jobin.title": "De espada Jobin não troca!",
+  "advancements.jobin.obtain_sword_jobin.description": "Faça uma espada de Jobin"
 }

@@ -17,6 +17,12 @@
     },
     "done": true
   },
+  "jobinmod:jobin/obtain_armor_jobin": {
+    "criteria": {
+      "jobin_helmet": "2021-12-07 22:47:09 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2021-12-02 23:38:03 -0300"
@@ -155,6 +161,12 @@
     },
     "done": true
   },
+  "jobinmod:jobin/obtain_sword_jobin": {
+    "criteria": {
+      "jobin_sword": "2021-12-07 22:47:09 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/light_weighted_pressure_plate": {
     "criteria": {
       "has_gold_ingot": "2021-12-03 00:13:50 -0300"
@@ -188,6 +200,12 @@
   "minecraft:recipes/misc/gold_nugget": {
     "criteria": {
       "has_gold_ingot": "2021-12-03 00:13:50 -0300"
+    },
+    "done": true
+  },
+  "jobinmod:jobin/root": {
+    "criteria": {
+      "jobin_ingot": "2021-12-07 22:47:09 -0300"
     },
     "done": true
   },
@@ -284,6 +302,12 @@
   "minecraft:recipes/combat/crossbow": {
     "criteria": {
       "has_stick": "2021-12-05 00:13:10 -0300"
+    },
+    "done": true
+  },
+  "jobinmod:jobin/obtain_tool_jobin": {
+    "criteria": {
+      "jobin_pickaxe": "2021-12-07 22:47:09 -0300"
     },
     "done": true
   },
