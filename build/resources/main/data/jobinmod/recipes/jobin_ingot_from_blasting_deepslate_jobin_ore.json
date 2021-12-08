@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "jobin_ingot",
+  "ingredient": {
+    "item": "jobinmod:deepslate_jobin_ore"
+  },
+  "result": "jobinmod:jobin_ingot",
+  "experience": 1.0,
+  "cookingtime": 100
+}

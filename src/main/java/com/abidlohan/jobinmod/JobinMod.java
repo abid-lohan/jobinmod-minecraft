@@ -36,7 +36,7 @@ public class JobinMod {
     }
 
     private void setup(final FMLCommonSetupEvent event) {
-        LOGGER.info("Starting Jobin Mod");
+        LOGGER.info("Starting Jobin Mod!");
     }
 }
 
@@ -48,6 +48,5 @@ todo:
 - Custom tags
 - Tooltips
 - JEI and Curios integration
-- Change ingot to gem
 - Add Jobin entity easter egg
  */

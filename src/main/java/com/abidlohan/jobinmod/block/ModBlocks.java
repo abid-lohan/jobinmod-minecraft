@@ -26,6 +26,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> JOBIN_ORE = registerBlockJobinTab("jobin_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(12f).requiresCorrectToolForDrops()));
 
+    public static final RegistryObject<Block> DEEPSLATE_JOBIN_ORE = registerBlockJobinTab("deepslate_jobin_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(12f).requiresCorrectToolForDrops()));
+
 
     public static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

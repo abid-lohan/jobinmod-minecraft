@@ -179,6 +179,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_deepslate_gold_ore": {
+    "criteria": {
+      "has_deepslate_gold_ore": "2021-12-07 23:42:05 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/clock": {
     "criteria": {
       "has_redstone": "2021-12-02 23:38:03 -0300"
@@ -308,6 +314,12 @@
   "jobinmod:jobin/obtain_tool_jobin": {
     "criteria": {
       "jobin_pickaxe": "2021-12-07 22:47:09 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_deepslate_gold_ore": {
+    "criteria": {
+      "has_deepslate_gold_ore": "2021-12-07 23:42:05 -0300"
     },
     "done": true
   },
