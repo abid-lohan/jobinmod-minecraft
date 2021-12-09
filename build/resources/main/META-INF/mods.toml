@@ -3,7 +3,7 @@ loaderVersion="[37,)"
 license="MIT"
 [[mods]]
 modId="jobinmod"
-version="1.17.1-0.7.5"
+version="1.17.1-0.8.6"
 displayName="Jobin Mod"
 logoFile="jobinmod.png"
 credits="Thanks to Jobin"

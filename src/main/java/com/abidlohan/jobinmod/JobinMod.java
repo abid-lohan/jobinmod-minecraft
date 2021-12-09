@@ -2,10 +2,12 @@ package com.abidlohan.jobinmod;
 
 import com.abidlohan.jobinmod.block.ModBlocks;
 import com.abidlohan.jobinmod.item.ModItems;
+import com.abidlohan.jobinmod.world.gen.ModOreGeneration;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
@@ -32,6 +34,7 @@ public class JobinMod {
         ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
+        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, ModOreGeneration::generateOres);
         MinecraftForge.EVENT_BUS.register(this);
     }
 
@@ -43,10 +46,6 @@ public class JobinMod {
 /*
 todo:
 - Add a bow
-- Advanced block and item
-- Ore generation
-- Custom tags
-- Tooltips
-- JEI and Curios integration
+- Advanced item (lightning hand)
 - Add Jobin entity easter egg
  */
