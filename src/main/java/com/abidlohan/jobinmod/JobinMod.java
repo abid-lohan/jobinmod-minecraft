@@ -2,25 +2,16 @@ package com.abidlohan.jobinmod;
 
 import com.abidlohan.jobinmod.block.ModBlocks;
 import com.abidlohan.jobinmod.item.ModItems;
+import com.abidlohan.jobinmod.paintings.ModPaintings;
 import com.abidlohan.jobinmod.world.gen.ModOreGeneration;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
-import net.minecraftforge.fmlserverevents.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import java.util.stream.Collectors;
 
 @Mod(JobinMod.MOD_ID)
 public class JobinMod {
@@ -32,6 +23,7 @@ public class JobinMod {
 
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
+        ModPaintings.register(eventBus);
 
         eventBus.addListener(this::setup);
         MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, ModOreGeneration::generateOres);
@@ -46,6 +38,5 @@ public class JobinMod {
 /*
 todo:
 - Add a bow
-- Advanced item (lightning hand)
 - Add Jobin entity easter egg
  */

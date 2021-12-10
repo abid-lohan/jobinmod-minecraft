@@ -1,6 +1,7 @@
 package com.abidlohan.jobinmod.item;
 
 import com.abidlohan.jobinmod.JobinMod;
+import com.abidlohan.jobinmod.item.custom.JobinStaff;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
@@ -37,6 +38,10 @@ public class ModItems {
                     new Item.Properties().tab(ModCreativeModeTab.JOBIN_TAB)));
     public static final RegistryObject<Item> JOBIN_HOE = ITEMS.register("jobin_hoe",
             () -> new HoeItem(ModTiers.JOBIN, 2, 4f,
+                    new Item.Properties().tab(ModCreativeModeTab.JOBIN_TAB)));
+
+    public static final RegistryObject<Item> JOBIN_STAFF = ITEMS.register("jobin_staff",
+            () -> new JobinStaff(ModTiers.JOBIN, 2, 3f,
                     new Item.Properties().tab(ModCreativeModeTab.JOBIN_TAB)));
 
     public static final RegistryObject<Item> JOBIN_HELMET = ITEMS.register("jobin_helmet",

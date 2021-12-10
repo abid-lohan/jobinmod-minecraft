@@ -10,6 +10,8 @@
   "item.jobinmod.jobin_axe": "Machado de Jobin",
   "item.jobinmod.jobin_hoe": "Enxada de Jobin",
 
+  "item.jobinmod.jobin_staff": "Cajado de Jobin",
+
   "item.jobinmod.jobin_helmet": "Capacete de Jobin",
   "item.jobinmod.jobin_chestplate": "Peitoral de Jobin",
   "item.jobinmod.jobin_leggings": "Calças de Jobin",
@@ -22,12 +24,12 @@
 
   "itemGroup.jobinTab": "Jobin",
 
-  "advancements.jobin.root.title": "JO... BIN!",
-  "advancements.jobin.root.description": "Pegue algum minério de Jobin",
   "advancements.jobin.obtain_armor_jobin.title": "Cubra-me com Jobin",
   "advancements.jobin.obtain_armor_jobin.description": "Armadura de Jobin é o caminho do sucesso",
   "advancements.jobin.obtain_tool_jobin.title": "Eficiência nível Jobin",
   "advancements.jobin.obtain_tool_jobin.description": "Faça alguma ferramenta de Jobin",
   "advancements.jobin.obtain_sword_jobin.title": "De espada Jobin não troca!",
-  "advancements.jobin.obtain_sword_jobin.description": "Faça uma espada de Jobin"
+  "advancements.jobin.obtain_sword_jobin.description": "Faça uma espada de Jobin",
+  "advancements.jobin.obtain_staff_jobin.title": "Trovejante!",
+  "advancements.jobin.obtain_staff_jobin.description": "Faça um cajado de Jobin"
 }

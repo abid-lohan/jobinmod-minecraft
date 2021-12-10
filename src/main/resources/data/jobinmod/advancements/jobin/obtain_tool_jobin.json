@@ -1,5 +1,5 @@
 {
-  "parent": "jobinmod:jobin/root",
+  "parent": "jobinmod:jobin/obtain_jobin",
   "display": {
     "icon": {
       "item": "jobinmod:jobin_pickaxe",
