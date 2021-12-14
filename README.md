@@ -5,6 +5,8 @@
 <p>My first Minecraft mod project. Just testing how it works.</p>
 <p>The mod itself adds a new tier for minecraft tools and armor, which are better than diamond and comparable to netherite level, but you can mine in overworld.</p>
 
+![Items](https://github.com/abid-lohan/jobinmod-minecraft/raw/master/src/main/resources/print_readme.png "Creative Tab")
+
 ## Download
 
 ![version](https://img.shields.io/badge/version-1.0-green) <br>
