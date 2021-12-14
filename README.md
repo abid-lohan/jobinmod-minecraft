@@ -7,8 +7,8 @@
 
 ## Download
 
-![version](https://img.shields.io/badge/version-0.8.6-green) <br>
-Click <a href="https://github.com/abid-lohan/jobinmod-minecraft/raw/master/build/libs/jobinmod-1.17.1-0.8.6.jar" alt="Download">here</a> to download the latest .jar version.
+![version](https://img.shields.io/badge/version-1.0-green) <br>
+Click <a href="https://github.com/abid-lohan/jobinmod-minecraft/raw/master/build/libs/jobinmod-1.17.1-1.0.jar" alt="Download">here</a> to download the latest .jar version.
 
 Compatibility:
 - Forge - MC 1.17.1

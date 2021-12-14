@@ -34,9 +34,3 @@ public class JobinMod {
         LOGGER.info("Starting Jobin Mod!");
     }
 }
-
-/*
-todo:
-- Add a bow
-- Add Jobin entity easter egg
- */
