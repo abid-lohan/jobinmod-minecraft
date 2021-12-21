@@ -3,7 +3,7 @@ loaderVersion="[37,)"
 license="MIT"
 [[mods]]
 modId="jobinmod"
-version="1.17.1 - 1.0"
+version="1.18.1 - 1.0"
 displayName="Jobin Mod"
 logoFile="jobinmod.png"
 credits="Thanks to Jobin"
@@ -20,6 +20,6 @@ Adds a new tier for minecraft tools and armor, which are better than diamond and
 [[dependencies.jobinmod]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.17.1,1.18)"
+    versionRange="[1.17.1, 1.18.1]"
     ordering="NONE"
     side="BOTH"

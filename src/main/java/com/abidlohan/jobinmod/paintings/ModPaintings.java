@@ -1,13 +1,11 @@
 package com.abidlohan.jobinmod.paintings;
 
 import com.abidlohan.jobinmod.JobinMod;
-import net.minecraft.client.renderer.entity.PaintingRenderer;
 import net.minecraft.world.entity.decoration.Motive;
-import net.minecraft.world.entity.decoration.Painting;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fmllegacy.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 
 public class ModPaintings{
     public static final DeferredRegister<Motive> PAINTING_TYPES =

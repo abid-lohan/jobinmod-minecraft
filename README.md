@@ -10,10 +10,11 @@
 ## Download
 
 ![version](https://img.shields.io/badge/version-1.0-green) <br>
-Click <a href="https://github.com/abid-lohan/jobinmod-minecraft/raw/master/build/libs/jobinmod-1.17.1-1.0.jar" alt="Download">here</a> to download the latest .jar version.
+Click <a href="https://github.com/abid-lohan/jobinmod-minecraft/raw/master/versions/jobinmod-1.18.1-1.0.jar" alt="Download">here</a> to download the latest .jar version.
 
 Compatibility:
-- Forge - MC 1.17.1
+- Forge - MC 1.18 or 1.18.1 (<a href="https://github.com/abid-lohan/jobinmod-minecraft/raw/master/versions/jobinmod-1.18.1-1.0.jar" alt="Download">download</a>)
+- Forge - MC 1.17.1 ~ <i>not recommended</i> (<a href="https://github.com/abid-lohan/jobinmod-minecraft/raw/master/versions/jobinmod-1.17.1-1.0.jar" alt="Download">download</a>)
 
 ## What is "Jobin"?
 

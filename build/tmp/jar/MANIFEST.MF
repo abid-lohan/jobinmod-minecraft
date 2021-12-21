@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
-Specification-Title: jobinmod
-Specification-Vendor: jobinmodsareus
+Specification-Title: examplemod
+Specification-Vendor: examplemodsareus
 Specification-Version: 1
-Implementation-Title: jobin
-Implementation-Version: 1.17.1-0.1
-Implementation-Vendor: jobinmodsareus
-Implementation-Timestamp: 2021-12-13T22:32:35-0300
+Implementation-Title: forge-1.18.1-39.0.7-mdk
+Implementation-Version: 1.0
+Implementation-Vendor: examplemodsareus
+Implementation-Timestamp: 2021-12-20T23:52:28-0300
 
