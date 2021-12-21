@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "jobinmod:block/deepslate_jobin_ore"
-  }
-}
